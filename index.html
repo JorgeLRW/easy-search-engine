@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jorge's Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay" id="overlay">
+            <div class="search" id="search">
+                <form id="searchForm" action="https://www.google.com/search" method="get">
+                    <div class="search-input-container">
+                        <input id="searchBtn" type="text" name="q" placeholder="Search here">
+                        <input type="submit" value="Search">
+                    </div>
+                </form>
+                <div class="search-recs">
+                    <a href="https://www.google.com/search?q=hawaii&rlz=1C1CHBF_enUS1067US1086&oq=hawaii&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyCggBEC4YsQMYgAQyEAgCEC4YxwEYsQMY0QMYgAQyCggDEAAYsQMYgAQyDQgEEAAYgwEYsQMYgAQyCggFEC4YsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyDQgIEC4YrwEYxwEYgAQyBwgJEAAYjwLSAQgxODMyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Hawaii</a>
+                            <a href="https://www.google.com/search?q=best+places+to+live+in+the+us&rlz=1C1CHBF_enUS1067US1086&oq=best+places+to+live+in+the+US&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQg2MTYyajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8">Best places to live in the U.S.</a>
+                            <a href="https://www.google.com/search?q=best+cats+for+allergies&sca_esv=44ecb81858b984d3&sca_upv=1&rlz=1C1CHBF_enUS1067US1086&sxsrf=ADLYWIIjabsxBc70Vc6HObxg1GGz01rIZA%3A1722457262303&ei=rpyqZoOUEqzVwN4PtpKQyA0&ved=0ahUKEwiDo4qqjdKHAxWsKtAFHTYJBNkQ4dUDCBA&uact=5&oq=best+cats+for+allergies&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2Jlc3QgY2F0cyBmb3IgYWxsZXJnaWVzMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSJQVUO0CWMsUcAJ4AZABAJgBqQGgAeEHqgEEMTMuMbgBA8gBAPgBAZgCEKACgQjCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICFhAuGIAEGLADGEMY1AIYyAMYigXYAQLCAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIHEAAYgAQYCsICCBAAGBYYChgemAMAiAYBkAYTugYGCAEQARgJugYGCAIQARgIkgcEMTUuMaAHoVI&sclient=gws-wiz-serp">Best cats for allergies</a>
+                            <a href="https://www.google.com/search?q=best+dogs+for+allergies&sca_esv=44ecb81858b984d3&sca_upv=1&rlz=1C1CHBF_enUS1067US1086&sxsrf=ADLYWII8Qts8tPFwNCzbMYbISayZi0_m6w%3A1722457266793&ei=spyqZtCUMJbhp84PlfzmsQI&ved=0ahUKEwjQtZysjdKHAxWW8MkDHRW-OSYQ4dUDCBA&uact=5&oq=best+dogs+for+allergies&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2Jlc3QgZG9ncyBmb3IgYWxsZXJnaWVzMgUQABiABDILEAAYgAQYkQIYigUyCxAAGIAEGJECGIoFMgUQABiABDIFEAAYgAQyBhAAGAcYHjILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIEEAAYHki2FVDpC1jLD3AEeAGQAQCYAVWgAZsCqgEBNLgBA8gBAPgBAZgCCKACvwLCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAsICFhAuGIAEGLADGEMY1AIYyAMYigXYAQLCAgcQABiABBgNmAMAiAYBkAYSugYGCAEQARgJugYGCAIQARgIkgcBOKAHsB0&sclient=gws-wiz-serp">Best dogs for allergies</a>
+                            <a href="https://www.google.com/search?q=Well+behaved+lizards&sca_esv=44ecb81858b984d3&sca_upv=1&rlz=1C1CHBF_enUS1067US1086&sxsrf=ADLYWILXyG0AJnsUJqLf5UiGoUFuiTawfA%3A1722457317029&ei=5ZyqZt2xAYLcwN4PycL20Qc&ved=0ahUKEwiduJbEjdKHAxUCLtAFHUmhPXoQ4dUDCBA&uact=5&oq=Well+behaved+lizards&gs_lp=Egxnd3Mtd2l6LXNlcnAiFFdlbGwgYmVoYXZlZCBsaXphcmRzMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAFIjwRQAFgAcAB4AZABAJgBcKABcKoBAzAuMbgBA8gBAPgBAvgBAZgCAaACdJgDAJIHAzAuMaAH5QQ&sclient=gws-wiz-serp">Well behaved lizards</a>
+                            <a href="https://www.google.com/search?q=coolest+chicken+breeds&rlz=1C1CHBF_enUS1067US1086&oq=Coolest+chicken+breeds&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQgyOTA0ajBqOagCALACAA&sourceid=chrome&ie=UTF-8">Coolest chicken breeds</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
